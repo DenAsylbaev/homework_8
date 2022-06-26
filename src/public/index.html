@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <header-comp ref="headercomp"></header-comp>
+        <crumbs-comp></crumbs-comp>
+        <items-filter-comp></items-filter-comp>
+
+        <div class="featured container">
+            <h2 class="featuredHeader">Fetured Items</h2>
+            <div class="featuredTitle">Shop for items based on what we featured in this week</div>
+            
+            <products ref="products"></products>
+            <pagination-comp></pagination-comp>
+        </div>
+
+        <services-comp></services-comp>
+        <subscribe-comp></subscribe-comp>
+        <footer-comp></footer-comp>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" 
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- <script src="js/ProductComponent.js"></script>
+    <script src="js/CartComponent.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/headerComponent.js"></script>
+    <script src="js/crumbsComponent.js"></script>
+    <script src="js/itemsFilterComponent.js"></script>
+    <script src="js/paginationComponent.js"></script>
+    <script src="js/servicesComponent.js"></script>
+    <script src="js/subscribeComponent.js"></script>
+    <script src="js/footerComponent.js"></script> -->
+
+    <script src="js/main.js" type="module"></script>
+
+</body>
+
+</html>
